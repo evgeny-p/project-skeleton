@@ -1,4 +1,7 @@
-int main() {
+#define CTEST_MAIN
 
-    return 0;
+#include <ctest.h>
+
+int main(int argc, const char** argv) {
+    return ctest_main(argc, argv);
 }
